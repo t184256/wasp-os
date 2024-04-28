@@ -30,6 +30,7 @@ in pkgs.mkShell {
     ]))
     pkgs.gcc-arm-embedded-11
     pkgs.graphviz
+    pkgs.unzip
   ] ++ ifLinux [
     pkgs.bluez
   ];
